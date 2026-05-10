@@ -1,12 +1,6 @@
 fastapi==0.111.0
 uvicorn[standard]==0.29.0
-python-multipart==0.0.9      # file uploads
+python-multipart==0.0.9
 sqlalchemy==2.0.30
 pydantic[email]==2.7.1
 pydantic-settings==2.2.1
-
-# Uncomment whichever model framework you use:
-# ultralytics==8.2.0          # YOLO
-# tensorflow==2.16.1          # TensorFlow / Keras
-# torch==2.3.0                # PyTorch
-# Pillow==10.3.0              # image pre-processing
